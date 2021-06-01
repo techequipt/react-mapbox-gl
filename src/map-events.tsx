@@ -136,7 +136,7 @@ export const updateEvents = (
 ) => {
   const toListenOff = Object.keys(events).filter(
     eventKey =>
-      listeners[eventKey] && typeof currentProps[eventKey] !== 'function'
+      listeners[eventKey] && typeof currentProps[eventKey] === 'function'
   );
 
   toListenOff.forEach(key => {
