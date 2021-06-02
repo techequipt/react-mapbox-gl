@@ -2,9 +2,9 @@
 .vscode
 
 vendor/
-lib/
-lib-esm/
-dist/
+#lib/
+#lib-esm/
+#dist/
 es/
 www/
 node_modules/
